@@ -1,0 +1,26 @@
+$color: #000000;
+
+.nav {
+    display: inline-block;
+    &-item {
+        color: $color;
+        text-decoration:  none;
+        padding-right: 30px;
+        font-size: 14px;
+        &:hover {
+            color: lighten($color: #000000, $amount: 70%);
+        }
+    }
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: $color;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 25px;
+    text-decoration: none;
+}

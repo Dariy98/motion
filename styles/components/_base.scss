@@ -1,0 +1,54 @@
+$color: black;
+html {
+  font-family: sans-serif;
+  color: $color;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.description {
+  border-left: 1px solid red;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.imga {
+  &-search {
+    height: 14px;
+    width: 14px;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  margin-top: 55px;
+}
+.social-networks {
+  & img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.p {
+  &-hearts {
+    font-size: 12px;
+  }
+  &-copyright {
+    font-size: 12px;
+  }
+}
